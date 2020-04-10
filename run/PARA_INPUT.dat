@@ -1,0 +1,25 @@
+Continue 1 '/home/kiha/2_VDMPM_NOB/01_NOB_kh/data1/1_continu/%'
+A----------
+Xprocs 8
+Yprocs 4
+Zprocs 8
+A----------
+N1m 256 
+N2m 256 
+N3m 256 
+UNIFORM1 1 GAMMA1 3.0
+UNIFORM2 0 GAMMA2 2.6d0
+UNIFORM3 1 GAMMA3 3.0
+AspectRatio1 4            
+H            1                  
+AspectRatio3 2            
+A----------
+Ra 1E8
+Pr 0.7
+DeltaT 10.
+A----------
+MaxCFL 0.9
+A----------
+TotalTimeStep       500
+print_start_step    200
+print_interval_step 50
