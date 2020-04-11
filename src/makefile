@@ -14,12 +14,15 @@ OBJS   	= $(debug) $(module_mpi) $(solver) $(analysis) $(main)
 # FLAG 		= -O0 -g -fPIC -check all -WB #ifort
 FLAG 		= -O3 -fPIC -xMIC-AVX512#ifort
 
-PaScaLINC = -I/${HOME}/ptdma/PaScaL_TDMA-master/include
-PaScaLLIB = -L/${HOME}/ptdma/PaScaL_TDMA-master/lib -lpascal_tdma
+PaScaLINC = -I/${HOME}/ptdma/PaScaL_TDMA/include
+PaScaLLIB = -L/${HOME}/ptdma/PaScaL_TDMA/lib -lpascal_tdma
 
 FFTWLIB = -L/${HOME}/fft/lib		# For CSE XeonPhi
 FFTWINC = -I/${HOME}/fft/include	# For CSE XeonPhi
-FFTWFLAGS 	=  -lfftw3_threads -lfftw3 
+# FFTWLIB = -L/usr/local/lib		# For CSE XeonPhi
+# FFTWINC = -I/usr/local/include	# For CSE XeonPhi
+
+FFTWFLAGS 	=  -lfftw3 
 
 .SUFFIXES: .f90 .o
 .f90.o:
