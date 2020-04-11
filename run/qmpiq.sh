@@ -1,4 +1,4 @@
-#PBS -l nodes=1:ppn=4
+#PBS -l nodes=1:ppn=2
 #PBS -q dque
 #PBS -N NOB
 #PBS -j eo
