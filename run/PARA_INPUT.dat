@@ -8,7 +8,7 @@ N1m 64
 N2m 64 
 N3m 64 
 UNIFORM1 1 GAMMA1 3.0
-UNIFORM2 0 GAMMA2 2.6d0
+UNIFORM2 1 GAMMA2 2.6d0
 UNIFORM3 1 GAMMA3 3.0
 AspectRatio1 1            
 H            1                  
