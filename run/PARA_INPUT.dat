@@ -1,8 +1,8 @@
 Continue 0 '/home/kiha/2_VDMPM_NOB/01_NOB_kh/data1/1_continu/%'
 A----------
-Xprocs 4
-Yprocs 4
-Zprocs 4
+Xprocs 1
+Yprocs 1
+Zprocs 1
 A----------
 N1m 64 
 N2m 64 
